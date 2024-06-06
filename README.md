@@ -1,1 +1,1 @@
-detection of facial deepfake images using CNN Architecture
+Detection of Facial Deepfake images using CNN Architecture
