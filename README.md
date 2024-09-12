@@ -9,5 +9,5 @@
 
  DenseNet121 Architecture:
 
--DenseNet121: A densely connected convolutional network where each layer is connected to every other layer, ensuring efficient feature reuse.
--Pre-trained on: ImageNet dataset, enabling transfer learning for deepfake detection.
+- DenseNet121: A densely connected convolutional network where each layer is connected to every other layer, ensuring efficient feature reuse.
+- Pre-trained on: ImageNet dataset, enabling transfer learning for deepfake detection.
