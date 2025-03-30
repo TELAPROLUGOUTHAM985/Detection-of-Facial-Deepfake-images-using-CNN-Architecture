@@ -220,7 +220,7 @@ history_ft = model_ft.fit(train_ds,
                        callbacks=[checkpoint_cb, early_stopping_cb, reduce_lr])
 
 model_ft.save('deepfake.keras')
-
+model_ft.save('realvsfake.h5')
 plt.plot(history_ft.history['accuracy'])
 plt.plot(history_ft.history['val_accuracy'])
 plt.title('Model Accuracy')
