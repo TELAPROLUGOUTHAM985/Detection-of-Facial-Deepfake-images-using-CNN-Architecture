@@ -6,7 +6,7 @@ from PIL import Image
 # Load the trained deepfake detection model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("real_fake.h5")
+    return tf.keras.models.load_model("realvsfake.h5")
 model = load_model()
 
 # Function to preprocess the image
